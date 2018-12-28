@@ -146,7 +146,7 @@ body.dark-body {
   .page-scroll {
     overflow-y: scroll;
     height: 100vh;
-  }
+  
   .page-scroll:after {
     content: "";
     top: 0;
@@ -200,7 +200,7 @@ body.dark-body {
 }
 
 .btn-theme {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .btn-theme:focus,
 .btn-theme:active,
