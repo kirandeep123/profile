@@ -163,9 +163,13 @@
 
 	// opens a page
 	function openPage(id) {
+
+        var id = id.split('#').pop();
 		var futurePage = id ? document.getElementById(id) : pages[current],
 			futureCurrent = pages.indexOf(futurePage),
 			stackPagesIdxs = getStackPagesIdxs(futureCurrent);
+console.log(futurePage);
+		//	console.log(futurePage,);
 
 		// set transforms for the new current page
 		futurePage.style.WebkitTransform = 'translate3d(0, 0, 0)';
