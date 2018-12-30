@@ -170,6 +170,10 @@
 			futureCurrent = pages.indexOf(futurePage),
 			stackPagesIdxs = getStackPagesIdxs(futureCurrent);
 console.log(futurePage ," future page");
+console.log(futureCurrent ,"  futureCurrent");
+
+console.log(stackPagesIdxs ,"stackPagesIdxs");
+
 		//	console.log(futurePage,);
 
 		// set transforms for the new current page

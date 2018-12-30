@@ -632,6 +632,7 @@ body.dark-body {
   About text
 -----------------------------------*/
 .about-text h3{
+  color:orange;
   font-weight:600;
   font-size: 22px;
   margin: 0 0 10px
@@ -663,13 +664,17 @@ body.dark-body {
 
 .feature-box  h5 {
   font-size: 18px;
+  color:orange;
   margin: 0;
   padding: 0 0 10px;
   font-weight: 500;
+  
 }
 
 .feature-box p {
-  font-size: 14px;
+  font-size: 16px;
+  font-family:'freight-text-pro';
+  color:black;
   margin: 0;
 }
 
@@ -1103,6 +1108,10 @@ padding: 20px;
   border-bottom: 4px solid #eee;
   border-radius: 5px;
   overflow: hidden;
+  color:black;
+  font-size:x-large;
+  font-family: "freight-text-pro";
+
 }
 .contact-form h4 {
   font-size: 16px;
@@ -1201,7 +1210,7 @@ padding: 20px;
 
 /*Margin All*/
 .m-auto-all { margin: auto;}
-.m-0px { margin: 0;}
+.m-0px { margin: 0;color:black;}
 .m-5px {margin:5px}
 .m-10px {margin:10px}
 .m-15px {margin:15px}
