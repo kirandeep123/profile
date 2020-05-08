@@ -133,8 +133,8 @@ Copyright (c) 2018 - PxDraft
             speed: 200,
             loop:true,
             strings: [
+              'Software Engineer',
               'cryptocurrency Trader',
-              'Software Developer',
               'speaker',
               'instructor'
             ],
