@@ -135,7 +135,6 @@ Copyright (c) 2018 - PxDraft
             strings: [
               'Software Engineer',
               'cryptocurrency Trader',
-              'speaker',
               'instructor'
             ],
             breakLines: false
