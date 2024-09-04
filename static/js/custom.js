@@ -134,8 +134,7 @@ Copyright (c) 2018 - PxDraft
             loop:true,
             strings: [
               'Software Engineer',
-              'cryptocurrency Trader',
-              'instructor'
+              'Video Creator'
             ],
             breakLines: false
         }); 
